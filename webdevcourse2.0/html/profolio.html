@@ -8,11 +8,30 @@
 
         <link href="normilize.css" rel="stylesheet">
 
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
         <style>
+
+            body {
+
+                background: #C9CCD3;
+                background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+                background-blend-mode: lighten;
+                font-family: "VT323", sans-serif;
+
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            h1, h2, h3 {
+                font-family: "VT323", sans-serif;
+            }
 
             nav {
                 display:flex;
-                background-color: forestgreen;
+                background-color: red ;
                 justify-content: center;
                 position: fixed;
                 width: 100%;
@@ -36,7 +55,7 @@
 
             nav ul li a:hover {
                 transition: 0.2sec;
-                color: black
+                color: black;
             }
 
             .container {
@@ -67,6 +86,107 @@
                 margin: 30px 0px 100px;
             }
 
+            .aboutme {
+                width: 90%;
+                max-width: 1100px;
+                height: auto;
+                background-color: white;
+                text-align: center;
+                padding: 40px 50px 70px;
+                margin: 0 auto;
+                box-shadow: 10px 10px 0px rgb(0 0 0 / 40%), -10px -10px 0px rgb(28 66 238 / 80%);
+
+            }
+
+            .aboutme-section {
+                padding: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: wrap;
+
+            }
+
+            .aboutme-image {
+                height: 450px;
+                width: 400px;
+                background-image: url("raccoonstandingatdoor.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            .aboutme-text {
+                height: auto;
+                width: 40%;
+                margin-left: 40px;
+                text-align: left;
+            }
+
+            #projects {
+                padding: 5px;
+                margin: 5%;
+                width: 90%;
+                height: auto;
+                text-align: center;
+            }
+
+            .projects {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: wrap;
+            }
+
+            #projects h2 {
+                color: white;
+            }
+
+            .dog-project {
+                width: 400px;
+                height: 400px;
+                background: white;
+                position: relative;
+                border-radius: 10px;
+                background-image: url("Othello.jpg");
+                margin: 20px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .text {
+                position: absolute;
+                height: 65px;
+                width: 360px;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+                background-color: white;
+                overflow: hidden;
+                transition: 0.2s;
+                padding: 20px;
+            }
+
+            .text:hover {
+                height: 175px;
+                transition: 0.3s;
+            }
+
+            .text h3 {
+                margin-top: 3px;
+            }
+
+            .content {
+                color: black;
+            }
+
+            .button {
+                border: 5px solid lightblue;
+                border-radius: 10px;
+                width: 160px;
+                margin-bottom: 100px;
+                margin-left: 10px;
+            }
+ 
 
         </style>
 
@@ -86,24 +206,66 @@
         <section class="fishsticks">
             <div class="container">
                 <img src="raccoonselfie.jpg">
-                <h1>Hi! I'm Julia! I like raccoons and  I like sports</h1>
-
+                <h1>Hi! I'm Julia! I like raccoons, cars, and soccer.</h1>
             </div>
         </section>
             
-        <section id="aboutme" class="aboutme"></section>
+        <section id="aboutme" class="aboutme">
         <h2>About me</h2>
             <div class="aboutme-section">
                 <div class="img">
                     <div class="aboutme-image"></div>
                 </div>
                 <div class="aboutme-text">
-                    Ever since i was about four years old, i found that soccer was apart of my life. I used to cry when i couldn't go to games or practice because i loved it so much. I first started off as a defender and didnt really move around until the ball got close to the goal, then i tried to kick the ball. I've been a defender up until u10 and then i wanted to try goalie. Surprisingly, i was amazing at it and i was getting recognized quikly. The other goalies, referees, the opposing teams parents, even the coaches said i did an amazing job. The feeling of wind peircing on your face, the stadium lights glimering on the field, and the cheers after you make an amazing save. Those are the greatest times of soccer. Now im on u16 and salivating on medals.
+                    <p>Ever since i was about four years old, i found that soccer was apart of my life. I used to cry when i couldn't go to games or practice because i loved it so much. I first started off as a defender and didnt really move around until the ball got close to the goal, then i tried to kick the ball. I've been a defender up until u10 and then i wanted to try goalie. Surprisingly, i was amazing at it and i was getting recognized quickly. The other goalies, referees, the opposing teams parents, even the coaches said i did an outstanding job.  Now im on u16 and salivating for medals as a goalie.</p>
+
+                    <p>Even though raccoons are creatures that live in the wild, and are very aggressive, the are still one of the cutest animals on earth. Their chubby and fluffy body to their small, cute, fluffy face, is perfection all around. They are also very funny and are pretty friendly. The connection between me and raccoons started when it was 2020, a video came up on recommended of a raccoon trying different kinds of chips and i thought it was really cute.</p>
+
+                    <p>Cars are the greatest creations on earth in my opinion. Some of my top favorite cars inclued: the Nissan GTR R34, Nissan Silvia S15, Acura RSX Type S, Ferrari F40, Toyota Cressida and the Mazda RX-7 FC. JDM cars are my favorite types of cars. I really got into cars when i first saw Kazuhiko Nagata, also known as "Smokey", when he was attempting to go 200-mph on a British road. Another huge inspirational icon is Keiichi Tsuchiya, known as the Drift King, is the best drifter in the world. Both of these men inspire me to modify cars and go street racing.</p>
+
+                    <p>Im good at being a goalie and i can drive fast.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="project">
+                <h2>Projects</h2>
+                <div class="projects">
+
+                    <div class="dog-project">
+                        <div class="text">
+                            <h3 class="project-name"> Bernese Mountain dog</h3>
+                            <div class="content">
+                                <p>A HTML project about the Bernese Mountain dog.</p>
+                            </div>
+
+                            <a class="button" href="factsaboutdogs.html" target="_bank">View Projects</a>
+                        </div>
+
+                    </div>
+
+                    <div class="cnn-project">
+                        <div class="text">
+                            <h3 class="project-name">CNN News Clone</h3>
+                            <div class="content">
+                                <p>This project is a clone of the BBC News website.</p>
+                            </div>
+
+                            <a class="button" href="factsaboutdogs.html" target="_bank">View Projects</a>
+                        </div>
+
+                    </div>
+
 
 
                 </div>
             </div>
 
+
+
+        </section>
 
     </body>
 </html>
